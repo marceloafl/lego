@@ -1,0 +1,30 @@
+.menu-images-section {
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.menu-images-list {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-images-item {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #bbdcf5;
+  border-bottom: 1px solid #bbdcf5;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-images-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .menu-images-item {
+    border: 1px solid #bbdcf5;
+    height: 360px;
+    width: calc(100% / 3 - 2px);
+  }
+}

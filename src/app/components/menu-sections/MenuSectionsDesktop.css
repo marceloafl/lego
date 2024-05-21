@@ -1,0 +1,33 @@
+.menu-section-desktop-list {
+  display: none;
+}
+
+.menu-section-desktop-item {
+  cursor: pointer;
+  padding: 8px;
+  text-align: center;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-section-desktop-list {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .menu-section-desktop-item {
+    padding: 4px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-section-desktop-item {
+    padding: 16px;
+    font-size: 16px;
+  }
+}

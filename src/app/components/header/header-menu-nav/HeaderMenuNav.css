@@ -1,0 +1,36 @@
+.header-menu-nav-wrapper {
+  display: flex;
+  height: 100%;
+  padding-right: 8px;
+  justify-self: flex-end;
+  p {
+    margin: 0;
+  }
+}
+
+.item-menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 100%;
+  cursor: pointer;
+  p {
+    font-size: 13px;
+  }
+}
+
+.item-menu-contact {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .item-menu-contact {
+    display: flex;
+  }
+  .header-menu-nav-wrapper {
+    padding-right: 16px;
+  }
+}

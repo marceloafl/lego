@@ -1,0 +1,30 @@
+.page-title-mobile-wrapper {
+  box-sizing: border-box;
+  padding: 16px;
+
+  h2 {
+    font-size: 38px;
+    font-weight: 400;
+  }
+}
+
+.page-title-desktop-wrapper {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .page-title-mobile-wrapper {
+    display: none;
+  }
+
+  .page-title-desktop-wrapper {
+    display: flex;
+    margin: auto;
+    padding-left: 16px;
+
+    h2 {
+      font-size: 60px;
+      color: #ffffff;
+    }
+  }
+}

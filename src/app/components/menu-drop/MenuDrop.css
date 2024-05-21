@@ -1,0 +1,15 @@
+.menu-drop-list {
+  font-size: 20px;
+  margin: 0;
+  padding: 16px;
+  width: 100%;
+}
+
+.menu-drop-item {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 16px;
+  text-decoration: none;
+  color: #000000;
+}
