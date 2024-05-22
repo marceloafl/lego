@@ -1,7 +1,7 @@
 ## Como visualizar o projeto?
 
-- Faça o download ou clone o repositório para sua máquina local.
-- Navegue até a pasta onde o arquivo está salvo e execute o servidor de desenvolvimento:
+- Faça o download ou clone o repositório.
+- Navegue até a pasta onde o arquivo está salvo e execute o servidor de desenvolvimento com:
 
 ```bash
 npm run dev
